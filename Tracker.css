@@ -1,0 +1,141 @@
+body{
+     font-family: "Comfortaa", sans-serif;
+}
+
+.header{
+    background-color: #ff96ca;
+    color: white;
+    padding-left: 25px;
+    font-size: x-large;
+}
+
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ff96ca;
+    margin-top: 15px;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+#add-button{
+    background: rgb(255, 150, 202);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: x-large;
+    color: white;
+}
+
+.inputs{
+    width: 30%;
+}
+
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    gap: 5px;
+}
+
+.card{
+    background:rgb(255, 150, 202) ;
+    color: white;
+    height: 150px;
+}
+
+.card-body{
+    color: white;
+}
+
+.transaction-table{
+    width: 95%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#header-row{
+    background: #ff96ca;
+}
+
+#header-row th{
+    padding: 15px 0px;
+    color: white;
+}
+
+.delete-button{
+    background: white;
+    height: 55px;
+    border: 1px red solid;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .header{
+        background: black;
+    }
+    .input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 0px 5px #000000;
+    }
+    .inputs{
+    width: 75%;
+    }
+    #add-button{
+    background: black;
+    width: 75%;
+    border-radius: 8px;
+    }
+    .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+.card{
+    background:rgb(0, 0, 0) ;
+    color: white;
+    height: 120px;
+    display: inline;
+}
+
+.card-body{
+    color: white;
+}
+.total-amount{
+    font-size: 17px;
+}
+.total{
+    font-size: 13px;
+}
+#wallet{
+    width: 20px;
+}
+#currency{
+    width: 15px;
+}
+#header-row{
+    background: #000000;
+}
+.delete-button{
+    background: white;
+    height: 40px;
+    border: none;
+}
+}
