@@ -33,11 +33,7 @@ body{
     padding: 0px 25px;
 }
 
-#click-here-button{
-    background: white ;
-    color:rgb(255, 150, 202) ;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.50);
-}
+
 
 #wave{
     font-size: 25px;
